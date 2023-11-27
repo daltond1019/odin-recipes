@@ -34,7 +34,7 @@ h1{
     content: url(images/chili.png);
     display: block;
     position: absolute;
-    left: 300px;
+    left: 500px;
     top: 0px;
     z-index: -1;
 }
@@ -45,7 +45,7 @@ h1{
     content: url(images/curry.png);
     display: block;
     position: absolute;
-    left: 600px;
+    left: 800px;
     top: 0px;
     z-index: -1;
 }
