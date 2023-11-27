@@ -1,0 +1,78 @@
+*{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+.main-list li{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.main-links{
+    font-size: 60px;
+    font-weight: 900;
+    z-index: 1;
+}
+.main-list{
+    padding-left: 30px;
+    margin-left: 0px;
+    border-left: 0px;
+    padding-top: 50px;
+    z-index: 1;
+}
+h1{
+    width: 20%;
+    margin: auto;
+    font-size: 100px;
+    white-space: nowrap;
+}
+#chili:hover::after{
+    content: url(images/chili.png);
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    z-index: -1;
+}
+#chili:hover{
+    position: relative;
+}
+#curry:hover::after{
+    content: url(images/curry.png);
+    display: block;
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    z-index: -1;
+}
+#curry:hover{
+    position: relative;
+}
+#teriyaki:hover::after{
+    content: url(images/teriyaki_chicken.png);
+    display: block;
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    z-index: -1;
+}
+#teriyaki:hover{
+    position: relative;
+}
+
+.main-list:hover .main-links {
+    opacity: 0.3;
+}
+
+.main-list:hover .main-links:hover {
+    opacity: 1;
+}
+
+.back{
+    font-size: 20px;
+    text-decoration: underline;
+}
